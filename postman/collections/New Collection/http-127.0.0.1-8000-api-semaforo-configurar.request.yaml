@@ -1,0 +1,23 @@
+$kind: http-request
+name: http://127.0.0.1:8000/api/semaforo/configurar
+description: ""
+url: http://127.0.0.1:8000/api/semaforo/configurar
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"codigo\": \"123\",\r
+
+    \  \"tempos\": {\r
+
+    \    \"verde\": 30,\r
+
+    \    \"amarelo\": 5,\r
+
+    \    \"vermelho\": 25\r
+
+    \  }\r
+
+    }\r\n"
+order: 1000
